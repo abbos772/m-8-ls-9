@@ -1,0 +1,36 @@
+.Watches {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 80px;
+  flex-wrap: wrap;
+}
+.watch {
+  width: 354px;
+  height: 239px;
+  border-radius: 22px;
+  cursor: pointer;
+  background: rgb(246, 246, 246);
+  transition: 0.5s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.watch:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.watch_text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.watch_text p {
+  color: rgb(139, 142, 153);
+
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}

@@ -1,0 +1,25 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+.nav svg {
+  color: white;
+  cursor: pointer;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+a {
+  color: rgb(139, 142, 153);
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}

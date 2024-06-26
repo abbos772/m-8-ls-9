@@ -1,0 +1,43 @@
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 90px;
+  justify-content: center;
+  padding-top: 100px;
+  text-align: center;
+}
+.card {
+  width: 334px;
+  height: 440px;
+}
+.card_img {
+  background: rgb(246, 246, 246);
+  width: 334px;
+  height: 337px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  line-height: 1.5;
+}
+.text h3 {
+  color: rgb(255, 0, 0);
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.old {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.old_p {
+  color: rgb(111, 111, 111);
+  text-decoration: line-through;
+}
