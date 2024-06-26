@@ -32,6 +32,7 @@
   display: flex;
   gap: 70px;
   flex-wrap: wrap;
+  padding-top: 100px;
 }
 .box {
   width: 524px;
